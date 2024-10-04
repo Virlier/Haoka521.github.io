@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-dpr="1" style="font-size: 75px; width: 100%;" data-redeviation-bs-uid="7hnv22ohjhn"><head>
+    <meta charset="UTF-8">
+    <title>1-3年级语数重点考点总结</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1,user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+ 
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+    
+    <link href="h5/project/preview/main.css" rel="stylesheet">
+
+
+    <!-- loading、线上测试弹窗 相关样式 -->
+    <style>
+      @keyframes rotate {
+        to {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+        }
+      }
+
+      #hidden-loading {
+        display: none;
+      }
+
+      #loading-mask {
+        height: 100vh;
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        z-index: 2147483647;
+      }
+
+      #loading-box {
+        margin: 10px auto 0 auto;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 1px solid rgba(255, 238, 237, 1);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      #loading-box::after {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: '';
+        border-radius: inherit;
+        border: 1px solid rgba(255, 238, 237, 1);
+        border-top-color: red;
+        animation: rotate 0.5s linear infinite;
+      }
+
+      .loading-img {
+        width: 35px;
+        height: auto;
+      }
+    </style>
+    <script>
+      if (!window.Proxy) {
+        window.location.href = 'https://h5.xueersi.com/noproxy.html';
+      }
+    </script>
+    <script>
+      !(function () {
+        var dpr, rem, scale;
+        var docEl = document.documentElement;
+        var metaEl = document.querySelector('meta[name="viewport"]');
+        dpr = 1;
+        scale = 1;
+        function setRootSize() {
+          // 如果在h5.xesv5.com域下编辑平台根元素为37.5px，发布之后根元素根据设备发生变化
+          if (
+            ~[
+              'editor-dev.xiwang.com',
+              'editor.xiwang.com',
+              'editor-test.xiwang.com',
+              'editor-gray.xiwang.com'
+            ].indexOf(window.location.hostname) &&
+            window.location.pathname != '/project/preview'
+          ) {
+            docEl.style.fontSize = '37.5px';
+            window.rem = 37.5;
+          } else {
+            var rootWidth = docEl.offsetWidth;
+            // 最大540像素
+            rootWidth = Math.min(rootWidth / dpr, 750);
+            // 动态写入样式
+            rem = (rootWidth * dpr) / 10;
+            window.rem = rem;
+            docEl.style.fontSize = rem + 'px';
+            remPatch();
+          }
+        }
+        function remPatch() {
+          var remTestFragment = document.createElement('div');
+          remTestFragment.id = 'rem-test';
+          remTestFragment.style.width = '100rem';
+          remTestFragment.style.opacity = 0;
+          remTestFragment.style.position = 'absolute';
+          remTestFragment.style.top = '-1000px';
+          remTestFragment.style.left = '-1000px';
+          document.addEventListener('DOMContentLoaded', function () {
+            document.body.appendChild(remTestFragment);
+            var currentTestWidth = remTestFragment.offsetWidth;
+            var rootFontSize = docEl.style.fontSize.replace(/px/, '') * 100;
+            var scale = currentTestWidth / rootFontSize;
+            rootFontSize = rootFontSize / 100 / scale;
+            window.rootFontSize = rootFontSize;
+            docEl.style.fontSize = rootFontSize + 'px';
+            remTestFragment.parentNode.removeChild(remTestFragment);
+          });
+        }
+        var delay;
+        function onResize() {
+          // 为什么横屏变为竖屏执行两次，竖屏变为横屏执行一次
+          clearTimeout(delay);
+          delay = setTimeout(setRootSize, 300);
+        }
+
+        window.addEventListener('resize', onResize, false);
+        // 设置viewport，进行缩放，达到高清效果
+        metaEl.setAttribute(
+          'content',
+          'initial-scale=' +
+            scale +
+            ',maximum-scale=' +
+            scale +
+            ', minimum-scale=' +
+            scale +
+            ',user-scalable=no, viewport-fit=cover'
+        );
+
+        setRootSize();
+        // 设置data-dpr属性，留作的css hack之用
+        docEl.setAttribute('data-dpr', dpr);
+        // 给js调用的，某一dpr下rem和px之间的转换函数
+        window.rem2px = function (v) {
+          v = parseFloat(v);
+          return v * rem;
+        };
+        window.px2rem = function (v) {
+          v = parseFloat(v);
+          return v / rem;
+        };
+
+        window.dpr = dpr;
+      })();
+    </script>
+
+
+  <script type="text/javascript" src="static/js/talSensor_v2.1.6.js" id="growthFeSourcegrowthJsLibrary"></script>
+
+
+  <!-- 
+<style type="text/css" id="tts-styles">[data-tts-block-id].tts-active {background: rgba(206, 225, 255, 0.9) !important;} [data-tts-sentence-id].tts-active {background: rgba(0, 89, 191, 0.7) !important;}</style><style class="redeviation-bs-style" data-name="content">/*! (c) Philipp Koenig under MS-RSL */
+body>div#redeviation-bs-indicator>div{opacity:0;pointer-events:none}body>#redeviation-bs-overlay.redeviation-bs-visible,body>#redeviation-bs-sidebar.redeviation-bs-visible{opacity:1;pointer-events:auto}body.redeviation-bs-noscroll{overflow:hidden !important}body>div#redeviation-bs-indicator>div{position:absolute;transform:translate3d(-40px, 0, 0);top:0;left:0;width:40px !important;height:100%;background:rgba(0,0,0,0.5);border-radius:0 10px 10px 0;transition:opacity .3s,transform .3s;z-index:2}body>div#redeviation-bs-indicator>div>span{-webkit-mask:no-repeat center/32px;-webkit-mask-image:url(chrome-extension://jdbnofccmhefkmjbkkdkfiicjkgofkdh/img/icon-bookmark.svg);background-color:#ffffff;position:absolute;display:block;top:0;left:0;width:100%;height:100%}body>div#redeviation-bs-indicator[data-pos=right]{left:auto;right:0}body>div#redeviation-bs-indicator[data-pos=right]>div{transform:translate3d(40px, 0, 0);left:auto;right:0;border-radius:10px 0 0 10px}body>div#redeviation-bs-indicator.redeviation-bs-fullHeight>div{border-radius:0}body>div#redeviation-bs-indicator.redeviation-bs-hover>div{transform:translate3d(0, 0, 0);opacity:1}body>div#redeviation-bs-indicator[data-pos=left].redeviation-bs-has-lsb{height:100% !important;top:0 !important}body>div#redeviation-bs-indicator[data-pos=left].redeviation-bs-has-lsb>div{background:rgba(0,0,0,0)}body>div#redeviation-bs-indicator[data-pos=left].redeviation-bs-has-lsb>div>span{-webkit-mask-position-y:20px}body>#redeviation-bs-sidebar{width:350px;max-width:none;height:0;z-index:2147483646;background-color:rgba(255, 255, 255, 0.8) !important;color-scheme:auto !important;speak:none;border:none;display:block !important;transform:translate3d(-350px, 0, 0);transition:width 0s .3s,height 0s .3s,opacity .3s,transform .3s}body>#redeviation-bs-sidebar[data-pos=right]{left:auto;right:0;transform:translate3d(350px, 0, 0)}body>#redeviation-bs-sidebar.redeviation-bs-visible{width:calc(100% + 350px);height:100%;transform:translate3d(0, 0, 0);transition:opacity .3s,transform .3s}body>#redeviation-bs-sidebar.sidepanel{width:100% !important}body>#redeviation-bs-sidebar.redeviation-bs-hideMask{background:none !important}body>#redeviation-bs-sidebar.redeviation-bs-hideMask:not(.redeviation-bs-hover){width:calc(350px + 50px)}body>#redeviation-bs-overlay{width:100%;max-width:none;height:100%;z-index:2147483647;border:none;speak:none;background:rgba(0,0,0,0.5) !important;color-scheme:auto !important;transition:opacity .3s}</style>
+
+-->
+
+</head>
+
+
+
+  <body class="production-state loading-state" style="background-color: rgba(255, 255, 255, 0);">
+    
+
+    <!-- 页面根节点 -->
+    <div id="main"><div class="main-container" style="user-select: auto;"><div id="rmqtqv70j2" class="container " style="background-color: rgb(255, 255, 255); position: absolute; left: 0px; right: 0px; margin: 0px auto; width: 100vw; max-width: 10rem; overflow-x: hidden; min-height: 100vh;"><div class="widget widget_Image widget_v817imh1el" style="display: block; position: absolute; height: 17.79rem; width: 10rem; left: 0px; top: 0px;"><div class="widget_Image content" style="height: 100%; background-color: rgba(255, 255, 255, 0); overflow: hidden; opacity: 1; box-sizing: border-box; padding: 0px; position: relative; font-size: 0.35rem;"><div class="widget-image" style=""><img src="resource/PnZDR8Jcdsv7GonB-Fzm5-1712569703816.jpg" style="display: block; width: 100%;"></div></div></div></div></div></div>
+    <!-- PageData -->
+  <!-- 
+    <script>
+      (function () { if (!/debug=true/.test(window.location.href)) { return } var script = document.createElement("script"); script.src = "//cdn.bootcss.com/eruda/2.2.0/eruda.js"; script.async = false; document.getElementsByTagName("head")[0].appendChild(script); script.onload = function () { eruda.init() } })();
+
+      (function () {
+        window.addEventListener('error', function (e) {
+          var elem = e.target;
+          if (elem.tagName && /img|script|link/.test(elem.tagName.toLowerCase())) {
+            window.__sourceError = window.sourceError || [];
+            window.__sourceError.push(e);
+          }
+        }, true);
+      })();
+
+
+
+      var PageData = {"DOMAIN":"xiwang.com","STATIC_URL":"//m.xiwang.com","H5_URL":"https://m.xiwang.com","scripts":[],"lazyloadScripts":[],"styles":[],"title":"1-3年级语数重点考点总结","inPreview":true,"inDev":false,"env":"prod","category":"","project":{"checkLoginTriggerId":"","clazz":"project","name":"小学1-3单元菜单栏","title":"1-3年级语数重点考点总结","pages":[{"id":"rmqtqv70j2","clazz":"page","pageTitle":"","widgets":[{"id":"v817imh1el","name":"图片-1","type":"Image","height":667.125,"data":{"url":"https://m.xiwang.com/resource/PnZDR8Jcdsv7GonB-Fzm5-1712569703816.jpg","viewBigPic":false},"pageWidth":375,"pageHeight":667,"condition":"","originName":"图片","minHeight":30,"path":"rmqtqv70j2-v817imh1el","isFullPage":false,"oldHeight":"","icon":"picture","category":"Image","group":"Image","isLoaded":true,"isInLayer":false,"parentPath":"rmqtqv70j2"}],"isSelected":true,"height":667,"isFullPage":false,"path":"rmqtqv70j2","variableStore":{},"dataBox":{"dataOrigin":"json","responseData":{},"params":[],"requestUrl":"","method":"POST"}}],"createdAt":"2024-01-09T06:40:40.392Z","lastModifyTime":"2024-01-09T06:40:40.392Z","lastPublished":"2024-01-09T06:40:40.392Z","runingStartTime":"2024-04-08T06:40:30.575Z","runingEndTime":"2099-01-01T00:00:00.763Z","variableStore":{},"dataBox":{"dataOrigin":"json","responseData":{},"params":[],"requestUrl":"","method":"POST"},"pageState":{},"bgImage":"","bgSize":"auto","bgSizeScale":100,"bgImagePosition":"center-center","bgImageRepeat":"none","rulesConfig":{},"editorType":"project","checkLogin":false,"shareConfig":{"clazz":"share","shareTitle":"网校就上希望学","shareContent":"","shareUrl":"","shareImgUrl":"https://m.xiwang.com/resource/zaowushenicon-1655691379031.png","shareWidget":"","showModal":false,"modalWidget":"","menuItem":["onMenuShareTimeline","onMenuShareAppMessage","onMenuShareQQ","onMenuShareQZone"],"getUserInfo":false,"wxMiniId":"gh_c46843a58e20","wxMiniPath":"","wxMiniImageUrl":""},"widgetLibraryVisible":false,"componentPlat":"h5","miniProgramId":"gh_de755964442e","width":375,"height":679,"dataUrl":"","editable":true,"ownerId":"w_wuyue9","userInfo":{"userId":"w_wuyue9","workcode":"W010235","userLevel":null,"isWxUser":0,"userDeptId":"625d0bf51102be269d68d574","userDept":"xw","role":"普通用户"},"themeId":null,"_id":"6613bd3d53b68572573f7ae2"},"mainStyles":[],"resources":["https://m.xiwang.com/resource/PnZDR8Jcdsv7GonB-Fzm5-1712569703816.jpg"],"client":["jzh","wx","wxmini","other"],"needHydrate":true};
+    </script>
+
+-->
+
+    <script nomodule="" src="static/js/es6-shim.js"></script>
+    <script src="static/js/react-reactDom.min.js"></script>
+    <script type="text/javascript" src="h5/project/preview/main.abb58d7432dbb688532a.js"></script>
+    
+  
+
+<div style="background-color: rgb(255, 143, 0); display: none; color: white; text-align: center; position: fixed; top: 0px; left: 0px; width: 100%; height: auto; min-width: 100%; min-height: auto; max-width: 100%; font: 12px &quot;Helvetica Neue&quot;, Helvetica, Arial, Geneva, sans-serif; cursor: pointer; padding: 5px;"><span style="color: white; font: 12px &quot;Helvetica Neue&quot;, Helvetica, Arial, Geneva, sans-serif;">You have turned off the paragraph player. You can turn it on again from the options page.</span><img src="chrome-extension://gfjopfpjmkcfgjpogepmdjmcnihfpokn/img/icons/icon-close_16.png" style="width: 20px; height: auto; min-width: 20px; min-height: auto; max-width: 20px; float: right; margin-right: 10px;"></div><bookmark-sidebar-tz6ss8ezlnk id="redeviation-bs-sidebar" class="notranslate" aria-hidden="true" data-theme="default" data-pos="right"></bookmark-sidebar-tz6ss8ezlnk><div id="redeviation-bs-indicator" data-theme="default" class="redeviation-bs-fullHeight" style="height: 100%; top: 0%;"></div></body></html>
